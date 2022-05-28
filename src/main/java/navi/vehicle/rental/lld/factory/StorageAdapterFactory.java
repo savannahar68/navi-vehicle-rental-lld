@@ -1,4 +1,4 @@
-package navi.vehicle.rental.lld.Factory;
+package navi.vehicle.rental.lld.factory;
 
 import navi.vehicle.rental.lld.adapter.InMemoryStorageAdapterImpl;
 import navi.vehicle.rental.lld.platform.StorageAdapter;

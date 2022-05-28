@@ -3,8 +3,8 @@
  */
 package navi.vehicle.rental.lld;
 
-import navi.vehicle.rental.lld.Factory.PricingStrategyFactory;
-import navi.vehicle.rental.lld.Factory.StorageAdapterFactory;
+import navi.vehicle.rental.lld.factory.PricingStrategyFactory;
+import navi.vehicle.rental.lld.factory.StorageAdapterFactory;
 import navi.vehicle.rental.lld.api.RentalService;
 import navi.vehicle.rental.lld.enums.VehicleType;
 import navi.vehicle.rental.lld.platform.PricingStrategy;

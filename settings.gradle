@@ -9,4 +9,4 @@
  */
 
 rootProject.name = 'navi-vehicle-rental-lld'
-include('app')
+include("src")
