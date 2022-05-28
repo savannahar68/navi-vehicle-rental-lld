@@ -53,7 +53,7 @@ jar {
     archiveBaseName = 'geektrust' //Please do not change this final artifact name
     version =  null               //Please do not change this final artifact version
     manifest {
-        attributes 'Main-Class' : 'app.navi.vehicle.rental.lld.App' //Change this to the main class of your program which will be executed
+        attributes 'Main-Class' : 'navi.vehicle.rental.lld.App' //Change this to the main class of your program which will be executed
     }
     duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     // To create a single jar with all dependencies.
@@ -85,5 +85,5 @@ test { ///Please do not change this
 
 application {
     // Define the main class for the application.
-    mainClass = 'app.navi.vehicle.rental.lld.App'
+    mainClass = 'navi.vehicle.rental.lld.App'
 }
